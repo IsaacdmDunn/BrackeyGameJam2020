@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 5079a94bba04c8d4ca094438b0ae8f43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6813845941916639254
+    second: Player_Walk_Down_0
+  - first:
+      213: 6234056664746195788
+    second: Player_Walk_Down_1
+  - first:
+      213: -1424901875817321497
+    second: Player_Walk_Down_2
+  - first:
+      213: -8742117578677461190
+    second: Player_Walk_Down_3
+  - first:
+      213: -1228630951756524584
+    second: Player_Walk_Down_4
+  - first:
+      213: 4101556356247438772
+    second: Player_Walk_Down_5
+  - first:
+      213: 2868235940973277342
+    second: Player_Walk_Down_6
+  - first:
+      213: 4041454694059277477
+    second: Player_Walk_Down_7
+  - first:
+      213: -6692881951663938683
+    second: Player_Walk_Down_8
+  - first:
+      213: -1950155594635850300
+    second: Player_Walk_Down_9
+  - first:
+      213: 4882982973395512494
+    second: Player_Walk_Down_10
+  - first:
+      213: 8748422452849648498
+    second: Player_Walk_Down_11
+  - first:
+      213: -1371442871009296562
+    second: Player_Walk_Down_12
+  - first:
+      213: 597678941022950442
+    second: Player_Walk_Down_13
+  - first:
+      213: -4771252584681678209
+    second: Player_Walk_Down_14
+  - first:
+      213: -607864178833261298
+    second: Player_Walk_Down_15
+  - first:
+      213: 8293802015155618907
+    second: Player_Walk_Down_16
+  - first:
+      213: -3742252676607942487
+    second: Player_Walk_Down_17
+  - first:
+      213: -4586693786530243939
+    second: Player_Walk_Down_18
+  - first:
+      213: -3309774090671170300
+    second: Player_Walk_Down_19
+  - first:
+      213: 472038269651747886
+    second: Player_Walk_Down_20
+  - first:
+      213: 6363831763177248888
+    second: Player_Walk_Down_21
+  - first:
+      213: 1167083487079013434
+    second: Player_Walk_Down_22
+  - first:
+      213: 1721837872464145465
+    second: Player_Walk_Down_23
+  - first:
+      213: -9062975441242693741
+    second: Player_Walk_Down_24
+  - first:
+      213: -289196690231811555
+    second: Player_Walk_Down_25
+  - first:
+      213: 8677845388461408462
+    second: Player_Walk_Down_26
+  - first:
+      213: 5355529538602720395
+    second: Player_Walk_Down_27
+  - first:
+      213: 4624531884769055246
+    second: Player_Walk_Down_28
+  - first:
+      213: 2096120505325118507
+    second: Player_Walk_Down_29
+  - first:
+      213: -8279014701495373233
+    second: Player_Walk_Down_30
+  - first:
+      213: -9093216619076568978
+    second: Player_Walk_Down_31
+  - first:
+      213: -5190378189505695368
+    second: Player_Walk_Down_32
+  - first:
+      213: 5069778124121045793
+    second: Player_Walk_Down_33
+  - first:
+      213: -8344377606462052570
+    second: Player_Walk_Down_34
+  - first:
+      213: 3334748140074454792
+    second: Player_Walk_Down_35
+  - first:
+      213: -6953003606843311892
+    second: Player_Walk_Down_36
+  - first:
+      213: 383246195336764118
+    second: Player_Walk_Down_37
+  - first:
+      213: -1235513374183368764
+    second: Player_Walk_Down_38
+  - first:
+      213: -6332495129763237021
+    second: Player_Walk_Down_39
+  - first:
+      213: 5375315106982945026
+    second: Player_Walk_Down_40
+  - first:
+      213: 3331394614244841363
+    second: Player_Walk_Down_41
+  - first:
+      213: 4261014160660479850
+    second: Player_Walk_Down_42
+  - first:
+      213: 3196645291863632662
+    second: Player_Walk_Down_43
+  - first:
+      213: 2673671689002471195
+    second: Player_Walk_Down_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Walk_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610ad2a68c4af8e50800000000000000
+      internalID: 6813845941916639254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Walk_Down_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b7ad3d181d38650800000000000000
+      internalID: 6234056664746195788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Walk_Down_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebee1c1b4bb93ce0800000000000000
+      internalID: -1424901875817321497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
