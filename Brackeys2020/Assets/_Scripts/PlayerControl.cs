@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
     public Animator animator;
+    public bool isAlive = true;
 
     // Update is called once per frame
     void Update()
@@ -24,5 +25,19 @@ public class PlayerControl : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        //death
+        if (collision.gameObject.layer == 9)
+        {
+            Debug.Log("ded");
+        }
+        //win
+        else if (collision.gameObject.layer == 10)
+        {
+            Debug.Log("win");
+        }
     }
 }
