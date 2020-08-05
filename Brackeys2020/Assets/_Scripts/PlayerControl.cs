@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class PlayerControl : MonoBehaviour
     Vector2 movement;
     public Animator animator;
     public bool isAlive = true;
+    public float timePowerLeft = 100f;
+    public static bool timePowerActive = false;
+
+    public Text timeTxt;
 
     // Update is called once per frame
     void Update()
@@ -24,11 +29,22 @@ public class PlayerControl : MonoBehaviour
     
     void FixedUpdate()
     {
+        if (Input.GetKey(KeyCode.Space) && timePowerLeft > 0)
+        {
+            timePowerActive = true;
+            timePowerLeft -= 0.30f;
+            timeTxt.text = Mathf.Round(timePowerLeft).ToString() + "%";
+        }
+        else
+        {
+            timePowerActive = false;
+        }
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
+        
         //death
         if (collision.gameObject.layer == 9)
         {
@@ -41,3 +57,4 @@ public class PlayerControl : MonoBehaviour
         }
     }
 }
+
