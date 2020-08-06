@@ -9,9 +9,12 @@ public class PlayerControl : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
     public Animator animator;
+    public GameMenuButtons gameMenu;
+    public LevelData levelData;
     public bool isAlive = true;
     public float timePowerLeft = 100f;
     public static bool timePowerActive = false;
+    public bool onPlatform = false;
 
     public Text timeTxt;
 
@@ -44,16 +47,33 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        //death
-        if (collision.gameObject.layer == 9)
+        if (collision.gameObject.layer == 8)
         {
-            Debug.Log("ded");
+            onPlatform = true;
+        }
+        //death
+        else if (collision.gameObject.layer == 9)
+        {
+            if (onPlatform == false)
+            {
+                gameMenu.ResetLevel();
+            }
         }
         //win
-        else if (collision.gameObject.layer == 10)
+        if (collision.gameObject.layer == 10)
         {
             Debug.Log("win");
+            levelData.winCondition = true;
+            gameMenu.WinMenu.SetActive(true);
+            this.gameObject.SetActive(false);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 8)
+        {
+            onPlatform = false;
         }
     }
 }
