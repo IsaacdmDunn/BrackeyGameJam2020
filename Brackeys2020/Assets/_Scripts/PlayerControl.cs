@@ -16,22 +16,25 @@ public class PlayerControl : MonoBehaviour
     public static bool timePowerActive = false;
     public bool onPlatform = false;
 
-    public Text timeTxt;
+    //public AudioSource death;
+    //public AudioSource win;
+    public AudioSource timePower;
 
-    // Update is called once per frame
-    void Update()
+    public Text timeTxt;
+    
+    void FixedUpdate()
     {
         //input
-        movement.x = (int)Input.GetAxisRaw("Horizontal");
-        movement.y = (int)Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-    }
-    
-    void FixedUpdate()
-    {
+        if (Input.GetKeyDown(KeyCode.Space) && timePowerLeft > 0)
+        {
+            timePower.Play();
+        }
         if (Input.GetKey(KeyCode.Space) && timePowerLeft > 0)
         {
             timePowerActive = true;
@@ -45,7 +48,7 @@ public class PlayerControl : MonoBehaviour
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.layer == 8)
         {
@@ -54,15 +57,16 @@ public class PlayerControl : MonoBehaviour
         //death
         else if (collision.gameObject.layer == 9)
         {
+            
             if (onPlatform == false)
             {
+                //death.Play();
                 gameMenu.ResetLevel();
             }
         }
         //win
         if (collision.gameObject.layer == 10)
         {
-            Debug.Log("win");
             levelData.winCondition = true;
             gameMenu.WinMenu.SetActive(true);
             this.gameObject.SetActive(false);

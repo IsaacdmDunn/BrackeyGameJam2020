@@ -32,6 +32,5 @@ public class LevelData : MonoBehaviour
                 gameMenu.ResetLevel();
             }
         }
-        
     }
 }
